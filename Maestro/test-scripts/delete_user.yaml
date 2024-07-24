@@ -1,0 +1,8 @@
+appId: app.com.nudgestories
+steps:
+  - launchApp
+  - tapOn: 'Profile'
+  - tapOn: 'Delete Account'
+  - confirm
+  - assertNotVisible: 'Dashboard'
+  - assertVisible: 'Sign Up'

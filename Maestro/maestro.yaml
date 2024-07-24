@@ -1,0 +1,6 @@
+flows:
+  - path: test-scripts/register.yaml
+  - path: test-scripts/login.yaml
+  - path: test-scripts/track_story.yaml
+  - path: test-scripts/track_quiz.yaml
+  - path: test-scripts/delete_user.yaml

@@ -1,0 +1,6 @@
+appId: app.com.nudgestories
+steps:
+  - launchApp
+  - tapOn: 'Stories'
+  - tapOn: 'Track Story'
+  - assertVisible: 'Story Content'

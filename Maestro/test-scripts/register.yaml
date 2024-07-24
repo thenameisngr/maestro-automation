@@ -1,0 +1,15 @@
+appId: app.com.nudgestories
+steps:
+  - launchApp
+  - tapOn: 'Sign Up'
+  - inputText:
+      id: 'username'
+      text: 'ngr123'
+  - inputText:
+      id: 'email'
+      text: 'ngr123@gmail.com'
+  - inputText:
+      id: 'password'
+      text: 'ngr123'
+  - tapOn: 'Register'
+  - assertVisible: 'Welcome'

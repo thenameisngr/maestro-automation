@@ -1,0 +1,12 @@
+appId: app.com.nudgestories
+steps:
+  - launchApp
+  - tapOn: 'Login'
+  - inputText:
+      id: 'username'
+      text: 'ngr123'
+  - inputText:
+      id: 'password'
+      text: 'password123'
+  - tapOn: 'Login'
+  - assertVisible: 'Dashboard'
